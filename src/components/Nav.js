@@ -8,7 +8,7 @@ const Nav = () => {
       <div className="container">
         <nav className="navbar navbar-expand-lg stroke px-0">
           <h1>
-            <a className="navbar-brand" href="index.html">
+            <Link className="navbar-brand" to="/">
               <span className="fa">
                 <img
                   src={logo}
@@ -18,7 +18,7 @@ const Nav = () => {
                 />
               </span>{" "}
               weddinvi
-            </a>
+            </Link>
           </h1>
           <button
             className="navbar-toggler  collapsed bg-gradient"
