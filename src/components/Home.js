@@ -6,7 +6,7 @@ import StickySideBar from "./StickySideBar";
 const Home = () => {
   return (
     <>
-      <StickySideBar whatsapp={6387797327} />
+      <StickySideBar whatsapp={9811718981} />
       <Banner />
       <SectionOne />
     </>

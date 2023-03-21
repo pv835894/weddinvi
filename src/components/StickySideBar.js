@@ -5,7 +5,7 @@ const StickySideBar = (props) => {
   return (
     <div className="sticky-side-bar-speicific">
       <a
-        href={`https://wa.me/${props.whatsapp}?text=Hey! MakeYourTripPossible, I have a Query`}
+        href={`https://wa.me/${props.whatsapp}?text=Hey! Weddinvi, I have a Query`}
         className="whatsapp-icon"
         target="_blank"
         type="button"

@@ -51,7 +51,7 @@ const Footer = () => {
               </div> */}
               <div class="col-lg-6 col-md-6 col-sm-7 col-7 footer-list-29 footer-3 mt-lg-0 mt-5">
                 <h6 class="footer-title-29">Head Office</h6>
-                <p class="mb-3"> B - 4/12 Sec -7 Rohini Delhi - 11005</p>
+                <p class="mb-3">Y - 2089 Mangolpuri New delhi Delhi - 110083</p>
                 <p class="mb-2">
                   {" "}
                   <span class="fa fa-phone"></span>{" "}
