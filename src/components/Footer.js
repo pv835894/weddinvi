@@ -84,53 +84,75 @@ const Footer = () => {
         </div>
         <section className="w3l-copyright text-center">
           <div className="container">
-            <div style={{ margin: "0 auto", justifyContent: "center" }}>
-              <ul
-                className="list-group list-group-horizontal"
-                style={{ background: "inherit" }}
+            <ul
+              className="list-group list-group-horizontal"
+              style={{
+                background: "inherit",
+                margin: "0 auto",
+                justifyContent: "center",
+              }}
+            >
+              <li
+                className="list-group-item"
+                style={{ background: "none", border: "none" }}
               >
-                <li
-                  className="list-group-item"
-                  style={{ background: "none", border: "none" }}
+                <a
+                  href="https://youtube.com/@Weddinvi"
+                  target="_blank"
+                  rel="noreferrer"
                 >
-                  <a href="https://youtube.com/@Weddinvi">
-                    <span className="fa fa-youtube-play"></span>
-                  </a>
-                </li>
-                <li
-                  className="list-group-item"
-                  style={{ background: "none", border: "none" }}
+                  <span className="fa fa-youtube-play"></span>
+                </a>
+              </li>
+              <li
+                className="list-group-item"
+                style={{ background: "none", border: "none" }}
+              >
+                <a
+                  href="https://instagram.com/weddinvi?igshid=ZDdkNTZiNTM="
+                  target="_blank"
+                  rel="noreferrer"
                 >
-                  <a href="https://instagram.com/weddinvi?igshid=ZDdkNTZiNTM=">
-                    <span className="fa fa-instagram"></span>
-                  </a>
-                </li>
-                <li
-                  className="list-group-item"
-                  style={{ background: "none", border: "none" }}
+                  <span className="fa fa-instagram"></span>
+                </a>
+              </li>
+              <li
+                className="list-group-item"
+                style={{ background: "none", border: "none" }}
+              >
+                <a
+                  href="https://twitter.com/weddinvii?t=9yWIIn6ri-g9T7TwkDOQjg&s=08"
+                  target="_blank"
+                  rel="noreferrer"
                 >
-                  <a href="https://twitter.com/weddinvii?t=9yWIIn6ri-g9T7TwkDOQjg&s=08">
-                    <span className="fa fa-twitter"></span>
-                  </a>
-                </li>
-                <li
-                  className="list-group-item"
-                  style={{ background: "none", border: "none" }}
+                  <span className="fa fa-twitter"></span>
+                </a>
+              </li>
+              <li
+                className="list-group-item"
+                style={{ background: "none", border: "none" }}
+              >
+                <a
+                  href="https://www.facebook.com/profile.php?id=100089804556666&mibextid=ZbWKwL"
+                  target="_blank"
+                  rel="noreferrer"
                 >
-                  <a href="https://www.facebook.com/profile.php?id=100089804556666&mibextid=ZbWKwL">
-                    <span className="fa fa-facebook"></span>
-                  </a>
-                </li>
-                <li
-                  className="list-group-item"
-                  style={{ background: "none", border: "none" }}
+                  <span className="fa fa-facebook"></span>
+                </a>
+              </li>
+              <li
+                className="list-group-item"
+                style={{ background: "none", border: "none" }}
+              >
+                <a
+                  href="https://pin.it/3fgGEhO"
+                  target="_blank"
+                  rel="noreferrer"
                 >
-                  <a href="https://pin.it/3fgGEhO">
-                    <span className="fa fa-pinterest"></span>
-                  </a>
-                </li>
-              </ul>
-            </div>
+                  <span className="fa fa-pinterest"></span>
+                </a>
+              </li>
+            </ul>
             <p className="copy-footer-29">
               © 2023 Weddinvi Cards. All rights reserved.
             </p>
