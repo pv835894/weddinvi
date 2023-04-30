@@ -15451,6 +15451,11 @@ p.counter {
   border-radius: var(--border-radius);
 }
 
+.our-team img.ceo {
+  width: 300px !important;
+  height: 100%;
+}
+
 .our-team img {
   width: 100%;
   height: 100%;

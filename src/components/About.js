@@ -4,9 +4,9 @@ import team2 from "./images/team2.jpg";
 import team3 from "./images/team3.jpg";
 import team4 from "./images/team4.jpg";
 import blog2 from "./images/blog2.jpg";
-import t1 from "./images/t1.jpg";
-import t2 from "./images/t2.jpg";
-import t3 from "./images/t3.jpg";
+import t1 from "./images/Pankaj_Verma.jpg";
+// import t2 from "./images/t2.jpg";
+// import t3 from "./images/t3.jpg";
 
 const About = () => {
   return (
@@ -136,19 +136,21 @@ const About = () => {
         <div className="container py-lg-5 py-md-4 py-2">
           <h3 className="title-big mb-md-5 mb-4 text-center">Met our Team</h3>
           <div className="row">
-            <div className="col-md-4 col-sm-6">
+            <div className="col-sm-12 col-md-12 col-sm-6">
               <div className="our-team">
                 <div className="pic">
                   <img
                     src={t1}
                     alt="team member"
-                    className="img-fluid radius-image"
+                    className="img-fluid radius-image ceo"
+                    style={{ width: "400px !important" }}
                   />
+                  <h3 className="title mb-1">Pankaj Verma</h3>
+                  <h5 className="title">CEO</h5>
+                  {/* <span className="post">CEO</span> */}
                 </div>
-                <div className="content">
-                  <h3 className="title">Peter Johns</h3>
-                  <span className="post">Financial Manager</span>
-                  {/* <ul className="social">
+                {/* <div className="content">
+                  <ul className="social">
                     <li>
                       <a href="#" className="fa fa-facebook"></a>
                     </li>
@@ -158,11 +160,11 @@ const About = () => {
                     <li>
                       <a href="#" className="fa fa-linkedin"></a>
                     </li>
-                  </ul> */}
-                </div>
+                  </ul>
+                </div> */}
               </div>
             </div>
-            <div className="col-md-4 col-sm-6">
+            {/* <div className="col-md-4 col-sm-6">
               <div className="our-team">
                 <div className="pic">
                   <img
@@ -174,7 +176,7 @@ const About = () => {
                 <div className="content">
                   <h3 className="title">Alexander</h3>
                   <span className="post">Supervisor</span>
-                  {/* <ul className="social">
+                  <ul className="social">
                     <li>
                       <a href="#" className="fa fa-facebook"></a>
                     </li>
@@ -184,11 +186,11 @@ const About = () => {
                     <li>
                       <a href="#" className="fa fa-linkedin"></a>
                     </li>
-                  </ul> */}
+                  </ul>
                 </div>
               </div>
-            </div>
-            <div className="col-md-4 col-sm-6">
+            </div> */}
+            {/* <div className="col-md-4 col-sm-6">
               <div className="our-team">
                 <div className="pic">
                   <img
@@ -200,7 +202,7 @@ const About = () => {
                 <div className="content">
                   <h3 className="title">Williams</h3>
                   <span className="post">Manager</span>
-                  {/* <ul className="social">
+                  <ul className="social">
                     <li>
                       <a href="#" className="fa fa-facebook"></a>
                     </li>
@@ -210,10 +212,10 @@ const About = () => {
                     <li>
                       <a href="#" className="fa fa-linkedin"></a>
                     </li>
-                  </ul> */}
+                  </ul>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
