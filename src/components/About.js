@@ -146,7 +146,7 @@ const About = () => {
                     style={{ width: "400px !important" }}
                   />
                   <h3 className="title mb-1">Pankaj Verma</h3>
-                  <h5 className="title">CEO</h5>
+                  <h5 className="title">Founder &amp; CEO</h5>
                   {/* <span className="post">CEO</span> */}
                 </div>
                 {/* <div className="content">
